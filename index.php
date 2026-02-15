@@ -101,7 +101,7 @@ $entries = $conn->query("SELECT * FROM journal ORDER BY entry_date DESC");
         .card-header {
             background: linear-gradient(135deg, #A5D6A7 0%, #81C784 100%);
             color: white;
-            border-radius: 15px 15px 0 0 !important;
+            border-radius: 15px 15px 0 0;
             padding: 20px;
         }
         
@@ -205,8 +205,8 @@ $entries = $conn->query("SELECT * FROM journal ORDER BY entry_date DESC");
         }
         
         .badge {
-            background: rgba(255, 255, 255, 0.9) !important;
-            color: #2E7D32 !important;
+            background: rgba(255, 255, 255, 0.9);
+            color: #2E7D32;
             font-family: Georgia, serif;
         }
         
